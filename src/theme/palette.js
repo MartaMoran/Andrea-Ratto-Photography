@@ -21,8 +21,8 @@ export default {
   },
   text: {
     primary: pureBlack,
-    secondary: pureWhite,
-    link: coral
+    secondary: coral,
+    link: pureWhite
   },
   link: mediumGrey,
   background: {

@@ -12,8 +12,30 @@ export function SwitchRoutes() {
           <Homepage />
         </Layout>
       </Route>
-      <Route exact path={routes.gallery.url}>
-        <h1>gallery</h1>
+      <Route path={routes.Europa.url}>
+        <Layout>
+          <h1>Europa</h1>
+        </Layout>
+      </Route>
+      <Route path={routes.lavapies.url}>
+        <Layout>
+          <h1>lavapies</h1>
+        </Layout>
+      </Route>
+      <Route path={routes.gallery.url}>
+        <Layout>
+          <h1>Series</h1>
+        </Layout>
+      </Route>
+      <Route path={routes.Bio.url}>
+        <Layout>
+          <h1>Bio</h1>
+        </Layout>
+      </Route>
+      <Route path={routes.Contact.url}>
+        <Layout>
+          <h1>Contact</h1>
+        </Layout>
       </Route>
       <Route path='*'>
         <Redirect to={routes.homePage.url} />
